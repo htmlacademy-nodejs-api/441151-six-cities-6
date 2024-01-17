@@ -21,4 +21,4 @@ export type Offer = {
   author: User;
   numberOfComments: number;
   coordinates: Coordinates;
-}
+};

@@ -7,9 +7,8 @@ export class HelpCommand implements Command {
   }
 
   public async execute(..._parameters: string[]): Promise<void> {
-    
     console.info(`
-        ${chalk.green("Программа для подготовки данных для REST API сервера.")}
+        ${chalk.green('Программа для подготовки данных для REST API сервера.')}
         Пример:
             cli.js --<command> [--arguments]
         Команды:
